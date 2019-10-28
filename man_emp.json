@@ -1,0 +1,49 @@
+{
+    'manager-1': {
+        'name': 'Manager 1',
+        'children': {
+            'manager-2': {
+                'name': 'Manager 2',
+                'children': {
+                    'employee-1': {
+                        'name': 'Employee 1',
+                        'children': {
+                            'employee-7': {
+                                'name': 'Employee 7',
+                            },
+                            'employee-8': {
+                                'name': 'Employee 8',
+                            }
+                        }
+                    },
+                    'employee-2': {
+                        'name': 'Employee 2',
+                    },
+                    'employee-3': {
+                        'name': 'Employee 3',
+                    },
+                },
+            },
+            'manager-3': {
+                'name': 'Manager 3',
+                'children': {
+                    'employee-4': {
+                        'name': 'Employee 4',
+                    },
+                    'employee-5': {
+                        'name': 'Employee 5',
+                    },
+                    'employee-6': {
+                        'name': 'Employee 6',
+                    },
+                },
+            },
+            'manager-4': {
+                'name': 'Manager 4',
+            },
+            'manager-5': {
+                'name': 'Manager 5',
+            }
+        }
+    }
+}
