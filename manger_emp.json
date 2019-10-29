@@ -1,0 +1,64 @@
+[
+  {
+    "FirstName": "Tom",
+    "LastName": "Jones",
+    "EmployeeID": "123",
+    "ManagerEmployeeID": "",
+    "Manager Name": "",
+    "employees": [
+      {
+        "FirstName": "Alice",
+        "LastName": "Wong",
+        "EmployeeID": "456",
+        "ManagerEmployeeID": "123",
+        "Manager Name": "Tom Jones"
+      },
+      {
+        "FirstName": "Tommy",
+        "LastName": "J.",
+        "EmployeeID": "654",
+        "ManagerEmployeeID": "123",
+        "Manager Name": "Tom Jones"
+      }
+    ]
+  },
+  {
+    "FirstName": "Billy",
+    "LastName": "Bob",
+    "EmployeeID": "777",
+    "ManagerEmployeeID": "",
+    "Manager Name": "",
+    "employees": [
+      {
+        "FirstName": "Rik",
+        "LastName": "A.",
+        "EmployeeID": "622",
+        "ManagerEmployeeID": "777",
+        "Manager Name": "Billy Bob",
+        "employees": [
+          {
+            "FirstName": "Bob",
+            "LastName": "Small",
+            "EmployeeID": "111",
+            "ManagerEmployeeID": "622",
+            "Manager Name": "Rik A."
+          },
+          {
+            "FirstName": "Small",
+            "LastName": "Jones",
+            "EmployeeID": "098",
+            "ManagerEmployeeID": "622",
+            "Manager Name": "Rik A"
+          }
+        ]
+      },
+      {
+        "FirstName": "Eric",
+        "LastName": "C.",
+        "EmployeeID": "222",
+        "ManagerEmployeeID": "777",
+        "Manager Name": "Billy Bob"
+      }
+    ]
+  }
+]
