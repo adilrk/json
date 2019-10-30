@@ -1,0 +1,22 @@
+{
+	"FirstName": "Tom",
+	"LastName": "Jones",
+	"EmployeeID": "123",
+	"ManagerEmployeeID": "",
+	"Manager Name": "",
+	"employees": [{
+			"FirstName": "Alice",
+			"LastName": "Wong",
+			"EmployeeID": "456",
+			"ManagerEmployeeID": "123",
+			"Manager Name": "Tom Jones"
+		},
+		{
+			"FirstName": "Tommy",
+			"LastName": "J.",
+			"EmployeeID": "654",
+			"ManagerEmployeeID": "123",
+			"Manager Name": "Tom Jones"
+		}
+	]
+}
